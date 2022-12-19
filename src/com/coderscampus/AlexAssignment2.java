@@ -21,6 +21,7 @@ public class AlexAssignment2 {
 
 			if (guess < 1 || guess > 100 && guess == numberOfGuesses) {
 				System.out.println("That number is not between 1 and 100. Please try again.");
+				numberOfGuesses --;
 			} else if (guess < randomNumber && numberOfGuesses < 5) {
 				System.out.println("Pick a higher number");
 			} else if (guess > randomNumber && numberOfGuesses < 5) {
