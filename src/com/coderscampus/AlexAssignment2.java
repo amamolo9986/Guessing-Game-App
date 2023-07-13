@@ -18,7 +18,7 @@ public class AlexAssignment2 {
 		// 101 to 100
 
 		System.out.println("Guess a number between 1 and 100");
-		System.out.println(randomNumber);
+		//System.out.println(randomNumber);
 
 		int numberOfGuesses = 0;
 		while (numberOfGuesses < 5) {
