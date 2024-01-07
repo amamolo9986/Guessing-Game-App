@@ -9,8 +9,8 @@ public class AlexAssignment2 {
 
 		Scanner scan = new Scanner(System.in);
 		Random random = new Random();
-		int randomNumber = random.nextInt(100) + 1; 
-		
+		int randomNumber = random.nextInt(100) + 1;
+
 		// the reason that this isnt (101) is because that means 0-100 - and we can't
 		// have the random number generate as 0. So to fix this we simply add +1
 		// after the parenthesis, this means add one to the starting number.
@@ -18,7 +18,7 @@ public class AlexAssignment2 {
 		// 101 to 100
 
 		System.out.println("Guess a number between 1 and 100");
-		//System.out.println(randomNumber);
+		// System.out.println(randomNumber);
 
 		int numberOfGuesses = 0;
 		while (numberOfGuesses < 5) {
